@@ -6,19 +6,19 @@ const Header = ({ onSearch }) => {
 
   return (
     <>
-      <div className="p-4 bg-black flex items-center justify-between">
+      <div className="flex items-center justify-between p-4 bg-black">
         <div className="flex items-center space-x-4">
           <h1 className="text-[30px] uppercase font-bold text-red-700">
             Movie
           </h1>
           <nav className="flex items-center space-x-4">
-            <a href="#" className="text-white">
+            <a href="" className="text-white">
               Home
             </a>
-            <a href="#" className="text-white">
+            <a href="" className="text-white">
               About
             </a>
-            <a href="#" className="text-white">
+            <a href="" className="text-white">
               Contact
             </a>
           </nav>
